@@ -46,7 +46,7 @@ function App() {
         <Alert alert={alert} />
         <Routes>
           <Route
-            path="/"
+            path=" "
             element={
               <TextForm
                 showAlert={showAlert}
