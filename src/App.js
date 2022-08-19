@@ -31,20 +31,11 @@ function App() {
       showAlert("Light mode has been enabled", "success");
     }
   };
-  // return(
-  //   <>
-  //     <Navbar mode={mode} toggleMode={toggleMode} title={"TextUtils"}/>
-  //     <Alert alert={alert}/>
-  //     <TextForm showAlert={showAlert} mode={mode}/>
-  //     <About mode={mode}/>
-  //   </>
-  // );
   return (
     <>
-    
       <BrowserRouter>
+        <Navbar mode={mode} toggleMode={toggleMode} title={"TextUtils"} />
         <Alert alert={alert} />
-        <TextForm showAlert={showAlert} heading="Enter Text Here" mode={mode} ></TextForm>
         <Routes>
           <Route
             path="/"
