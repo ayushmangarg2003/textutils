@@ -1,4 +1,4 @@
-# link to the website
+# Link to the website
 https://ayushmangarg2003.github.io/about
 
 ## A small Message
